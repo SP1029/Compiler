@@ -7,12 +7,12 @@ This project involves building compilation toolchain that translates a staticall
 - Supported features like primitive types, operators, control flow, functions, and basic OOP with single inheritance
 
 ### Milestone 2: Semantic Analysis and Intermediate Code Generation
-- Performed semantic analysis using a **hierarchical symbol table** to check for scope, type, and function argument errors
+- Performed semantic analysis creating a **symbol table** and checking for scope, type, and argument errors
 - Generated a semantically equivalent **Three-Address Code (3AC)** representation for correct input programs
-- Implemented runtime support for function calls via activation records and provided meaningful semantic error messages
+- Implemented runtime support for function calls via activation records and provided meaningful error messages
 
 ### Milestone 3: x86_64 Code Generation
-- Translated the Three-Address Code (3AC) from Milestone 2 into runnable `x86_64` assembly code compatible with GAS on Linux
+- Translated the Three-Address Code (3AC) into runnable `x86_64` assembly code compatible with GAS on Linux
 - Focused on correctness and completeness, ensuring the generator handled large expressions without failure
 - Showcased the complete end-to-end translation of Python features into executable code
 
